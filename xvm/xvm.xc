@@ -1,14 +1,14 @@
 ﻿/**
  * Config was created in XVM Editor v0.64
- * at Sat Sep 28 13:42:40 GMT+0800 2013
+ * at Sun Sep 29 01:29:16 GMT+0800 2013
  */
 {
   "configVersion": "5.0.0",
   "editorVersion": "0.64",
   "definition": {
-    "author": "XVM",
+    "author": "Tydus",
     "date": "24.09.2013",
-    "description": "Default settings for XVM",
+    "description": "Tydus' XVM Config",
     "gameVersion": "0.8.8",
     "modMinVersion": "5.0.0",
     "url": "http://code.google.com/p/wot-xvm/"
@@ -82,7 +82,7 @@
 
     ],
     "highlightVehicleIcon": true,
-    "mirroredVehicleIcons": true,
+    "mirroredVehicleIcons": false,
     "removePanelsModeSwitcher": false,
     "showPostmortemTips": true,
     "useStandardMarkers": false
@@ -420,7 +420,7 @@
         "normal": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -482,7 +482,7 @@
               "format": "{{vehicle}}{{turret}}",
               "name": "Vehicle Name",
               "shadow": { "alpha": 100, "angle": 90, "color": "0x000000", "distance": 0, "size": 6, "strength": 200 },
-              "visible": true,
+              "visible": false,
               "x": 0,
               "y": -36
             },
@@ -514,7 +514,7 @@
         "extended": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -621,7 +621,7 @@
         "normal": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -694,7 +694,7 @@
         "extended": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -792,7 +792,7 @@
         "normal": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -854,7 +854,7 @@
               "format": "{{vehicle}}{{turret}}",
               "name": "Vehicle Name",
               "shadow": { "alpha": 100, "angle": 90, "color": "0x000000", "distance": 0, "size": 6, "strength": 200 },
-              "visible": true,
+              "visible": false,
               "x": 0,
               "y": -36
             },
@@ -886,7 +886,7 @@
         "extended": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -993,7 +993,7 @@
         "normal": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
@@ -1066,7 +1066,7 @@
         "extended": {
           "actionMarker": { "alpha": 100, "visible": true, "x": 0, "y": -67 },
           "clanIcon": { "alpha": 100, "h": 16, "visible": false, "w": 16, "x": 0, "y": -67 },
-          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 6, "y": -65 },
+          "contourIcon": { "alpha": 100, "amount": 0, "color": null, "visible": true, "x": 0, "y": -48 },
           "damageText": {
             "alpha": 100,
             "blowupMessage": "{{l10n:blownUp}}",
