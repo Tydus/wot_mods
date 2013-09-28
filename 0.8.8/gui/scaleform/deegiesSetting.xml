@@ -1,0 +1,107 @@
+﻿<!--
+
+제작자 : deegie / M_O_T clan (KR) - happydgs@naver.com
+아름다운 독도는 대한민국 고유의 영토입니다!
+
+-->
+
+<dgs>
+	<debug>false</debug>
+
+	<!-- 3인칭 시점 설정 -->
+	<arcade>
+		<color>00CCFF</color>
+		
+		<centerLine>true</centerLine>
+		<!-- 중앙 조준선 사용 true(사용) / false(비사용)-->
+
+		<!-- 내 전차 정보창 -->
+		<playerPanel>
+			<locations x="-120" y="40" scale="100"/>	
+			<!-- x: 화면중앙(조준점)기준 가로좌표, y: 화면중앙(조준점)기준 세로좌표, scale: 패널크기(기본100) -->
+
+			<useHealthValue percent="true" current="true" useMotion="true"/>	
+			<!-- percent: 체력백분율표시 true(사용) / false(비사용),  
+			current: 남은 체력 실수치 true(사용) / false(비사용), 
+			useMotion: 체력손실 에니메이션 true(사용) / false(비사용)-->
+
+			<shellInfo penetration="true" damage="true"/>
+			<!-- penetration: 평균관통력수치 표시 true(사용) / false(비사용), damage: 평균데미지수치 표시 true(사용) / false(비사용)-->
+
+			<textDecorate visible="false" alpha="30"/>
+			<!-- visible: 패널하단 꾸미기텍스트 true(사용) / false(비사용), alpha: 투명도(최고100)-->
+		</playerPanel>
+
+		<!-- 타겟 전차 정보창 -->
+		<targetPanel>
+			<visible active="true"/>
+			<!-- 타겟 전차 정보창 true(사용) / false(비사용)-->
+
+			<locations x="120" y="40" scale="100"/>		
+			<!-- x: 화면중앙(조준점)기준 가로좌표, y: 화면중앙(조준점)기준 세로좌표, scale: 패널크기(기본100) -->
+
+			<useMotion showSpeed="1" textAnimation="true" fadingSpeed = "1" fadingDelay="5"/> 
+			<!-- showDelay: 패널이 모두 표시되는데 걸리는 시간(초단위, 최하0.7부터, 0.6이하는 바로표시), 
+			textAnimation: 타겟 탱크이름 및 장착포탑 텍스트 에니매이션 true(사용) / false(비사용),
+			fadingSpeed: 패널정보가 사라지는 시간(초단위, 최하 0.7부터 0.6이하면 바로사라짐), 
+			fadingDelay: 패널정보가 유지되는 시간(초단위, 설정 시간후 사라지기 시작함) -->
+		</targetPanel>
+
+		<teaTimePanel>
+			<value>test</value>
+		</teaTimePanel>
+	</arcade>
+	
+	<!-- 1인칭 시점 설정 -->
+	<sniper>
+		<color>00CCFF</color>
+		
+		<centerLine>true</centerLine>
+		<!-- 중앙 조준선 사용 true(사용) / false(비사용)-->
+
+		<common>
+			<bloodEff active="false"/>
+			<!-- 피격시 혈흔 이펙트 true(사용) / false(비사용)-->
+
+			<zoomMotion active="true"/>
+			<!-- 줌배율 변환시 확대축소 이펙트 true(사용) / false(비사용)-->
+
+			<textDecorate visible="false" alpha="100"/>
+			<!-- visible: 패널좌우 꾸미기텍스트 true(사용) / false(비사용), alpha: 투명도(최고100)-->
+
+			<inforPanelUnderLine visible="true" alpha="100"/>
+			<!-- visible: 정보패널 밑줄 true(사용) / false(비사용), alpha: 투명도(최고100)-->
+
+			<inCircle visible="true" alpha="40"/>
+			<!-- visible: 안쪽 가이드라인 원 true(사용) / false(비사용), alpha: 투명도(최고100)-->
+
+			<outCircle visible="true" alpha="50"/>
+			<!-- visible: 바깥쪽 가이드라인 원 true(사용) / false(비사용), alpha: 투명도(최고100)-->
+
+			<useHealthValue x="-140" y="20" scale="100" percent="true" current="true"/>	
+			<!-- x: 화면중앙(조준점)기준 가로좌표, y: 화면중앙(조준점)기준 세로좌표, scale: 패널크기(기본100) -->
+			<!-- percent: 체력백분율표시 true(사용) / false(비사용),  current: 남은 체력 실수치 true(사용) / false(비사용)-->
+
+			<shellInfo penetration="true" damage="true"/>
+			<!-- penetration: 평균관통력수치 표시 true(사용) / false(비사용), damage: 평균데미지수치 표시 true(사용) / false(비사용)-->
+		</common>
+
+		<!-- 타겟 전차 정보창 -->
+		<targetPanel>
+			<visible active="true"/>
+			<!-- 타겟 전차 정보창 true(사용) / false(비사용)-->
+
+			<locations x="130" y="100" scale="100"/>		
+			<!-- x: 화면중앙(조준점)기준 가로좌표, y: 화면중앙(조준점)기준 세로좌표, scale: 패널크기(기본100) -->
+
+			<useMotion showSpeed="0.3" textAnimation="true" fadingSpeed = "0.3" fadingDelay="5"/> 
+			<!-- showDelay: 패널이 모두 표시되는데 걸리는 시간(초단위, 최하0.1부터, 0.1이하는 바로표시), 
+			textAnimation: 타겟 탱크이름 및 장착포탑 텍스트 에니매이션 true(사용) / false(비사용),
+			fadingSpeed: 패널정보가 사라지는 시간(초단위, 최하 0.7부터 0.6이하면 바로사라짐), 
+			fadingDelay: 패널정보가 유지되는 시간(초단위, 설정 시간후 사라지기 시작함) -->
+		</targetPanel>
+	</sniper>
+
+	<strategic>
+	</strategic>
+</dgs>
